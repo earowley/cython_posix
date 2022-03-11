@@ -14,26 +14,26 @@ cdef extern from *:
     int islessgreater(...)
     int isunordered(...)
     int signgam
+    const double M_E
+    const double M_LOG2E
+    const double M_LOG10E
+    const double M_LN2
+    const double M_LN10
+    const double M_PI
+    const double M_PI_2
+    const double M_PI_4
+    const double M_1_PI
+    const double M_2_PI
+    const double M_2_SQRTPI
+    const double M_SQRT2
+    const double M_SQRT1_2
+    const float  MAXFLOAT
+    const double HUGE_VAL
+    const float  HUGE_VALF
+    const long double HUGE_VALL
+    const float  INFINITY
+    const float  NAN
     enum:
-        M_E
-        M_LOG2E
-        M_LOG10E
-        M_LN2
-        M_LN10
-        M_PI
-        M_PI_2
-        M_PI_4
-        M_1_PI
-        M_2_PI
-        M_2_SQRTPI
-        M_SQRT2
-        M_SQRT1_2
-        MAXFLOAT
-        HUGE_VAL
-        HUGE_VALF
-        HUGE_VALL
-        INFINITY
-        NAN
         FP_INFINITE
         FP_NAN
         FP_NORMAL
